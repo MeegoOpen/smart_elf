@@ -1,0 +1,36 @@
+{
+  "name": "meego-app-init-2.0",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "dev": "LPM_ORIGIN_FOR_DEV_SERVER=localhost node scripts.js start",
+    "build": "node scripts.js build",
+    "deploy": "node scripts deploy"
+  },
+  "dependencies": {
+    "@douyinfe/semi-icons": "^2.64.0",
+    "@douyinfe/semi-ui": "^2.88.3",
+    "@lark-project/js-sdk": "alpha",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@lark-project/cli": "^2.5.2",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "axios": "^1.7.4",
+    "inquirer": "^8.0.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

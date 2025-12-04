@@ -1,0 +1,16 @@
+{
+  "siteDomain": "https://project.feishu.com",
+  "pluginId": "",
+  "OpenApiHost": "http://localhost:8081",
+  "pluginSecret": "",
+  "resources": [
+    {
+      "id": "config_web_5pae8f",
+      "entry": "./src/features/config/index.tsx"
+    },
+    {
+      "id": "control_web_a_u05u",
+      "entry": "./src/features/control/index.tsx"
+    }
+  ]
+}
